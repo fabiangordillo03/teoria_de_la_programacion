@@ -21,7 +21,7 @@ int main() {
     scanf("%f", &tam_vid);
     printf("por favor ingresa la cantidad de programas: ");
     scanf("%d", &cant_prog);
-    printf("por favor ingresa el tamanco de los programas (MB): ");
+    printf("por favor ingresa el tamano de los programas (MB): ");
     scanf("%f", &tam_prog);
     printf("por favor ingresa la capacidad del disco (GB): ");
     scanf("%d", &capacidad_disco);
