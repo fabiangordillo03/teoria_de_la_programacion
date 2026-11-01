@@ -4,14 +4,14 @@ int main() {
     //declaracion de datos
     float base, altura, area = 0.0;
     //entrada de datos
-    printf("ingrese la base del triangulo: \n");
+    printf("ingrese la base del triangulo en metros: \n");
     scanf("%f", &base);
-    printf("ingrese la altura del triangulo: \n");
+    printf("ingrese la altura del triangulo en metros: \n");
     scanf("%f", &altura);
     //proceso
     area = (base * altura)/2;
     //salida y evaluacion
-    printf("el area del triangulo es: %.2f \n", area);
+    printf("el area del triangulo es: %.2f metros cuadrados\n", area);
 
     if (area > 0) {
         printf("el area es mayor a cero \n");

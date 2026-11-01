@@ -11,7 +11,7 @@ int main() {
     residuo = num2 % LIMITE;
 
     if (residuo == 0 && num2 > 0) {
-        printf("se cumple la condición, el residuo: %d y es igual a cero y el número es mayor a cero", residuo);
+        printf("Se cumple la condición el residuo es 0 y el número seleccionado es mayor a cero.");
     } else {
         printf("no se cumple la condicion \n");
     }
